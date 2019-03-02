@@ -23,3 +23,6 @@ def take_a_number(list,person)
     list.push(person)
   end
 end
+
+
+def now_serving

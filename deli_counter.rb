@@ -25,4 +25,11 @@ def take_a_number(list,person)
 end
 
 
-def now_serving
+def now_serving(list)
+  if list.size == 0
+    puts "Line is empty"
+  else
+    puts "Currently serving #{list[0]}."
+    list.shift
+  end
+end

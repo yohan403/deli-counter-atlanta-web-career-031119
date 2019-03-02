@@ -15,6 +15,7 @@ end
 
 def take_a_number(list,person)
   if list.size == 0
+    puts "Welcome number 1 in line."
     list.push(person)
   else
     list.push(person)
